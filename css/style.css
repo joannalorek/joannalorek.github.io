@@ -627,9 +627,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
-/* Call To Action Section
+/* Publications Section
 --------------------------------*/
-#call-to-action {
+#Publications {
     background: linear-gradient(rgba(179, 230, 255, 0.5), rgba(0, 170, 255, 0.5)), url(../img/IMG_6271.png) fixed center center;
     background-size: cover;
     padding: 80px 0;
@@ -647,25 +647,25 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding: 50px;
 }
 
-#call-to-action .cta-title {
+#Publications .cta-title {
     color: #fff;
     font-size: 28px;
     font-weight: 700;
 }
 
-#call-to-action .cta-text {
+#Publications .cta-text {
     color: #fff;
 }
 
 @media (min-width: 769px) {
-    #call-to-action .cta-btn-container {
+    #Publications .cta-btn-container {
         display: flex;
         align-items: center;
         justify-content: flex-end;
     }
 }
 
-#call-to-action .cta-btn {
+#Publications .cta-btn {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -679,18 +679,18 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #fff;
 }
 
-#call-to-action .cta-btn:hover {
+#Publications .cta-btn:hover {
     background: #aadcf7;
     border: 2px solid #aadcf7;
 }
 
-/* More Features Section
+/* Skills Section
 --------------------------------*/
-#statistics {
+#skills {
     padding: 60px 0 60px 0;
 }
 
-#statistics .box {
+#skills .box {
     padding: 40px;
     margin-bottom: 30px;
     box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
@@ -698,18 +698,18 @@ body.mobile-nav-active #mobile-nav-toggle {
     transition: 0.4s;
 }
 
-#statistics .icon {
+#skills .icon {
     float: left;
 }
 
-#statistics .icon i {
+#skills .icon i {
     color: #666666;
     font-size: 80px;
     transition: 0.5s;
     line-height: 0;
 }
 
-#statistics .icon i:before {
+#skills .icon i:before {
     background: #1dc8cd;
     background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
     background-clip: border-box;
@@ -717,18 +717,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     -webkit-text-fill-color: transparent;
 }
 
-#statistics h4 {
-    margin-left: 100px;
-    font-weight: 700;
-    margin-bottom: 15px;
-    font-size: 18px;
-}
 
-#statistics h4 a {
-    color: #111;
-}
-
-#statistics p {
+#skills p {
     font-size: 14px;
     margin-left: 100px;
     margin-bottom: 0;
@@ -736,218 +726,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (max-width: 767px) {
-    #statistics .box {
+    #skills .box {
         margin-bottom: 20px;
     }
-    #statistics .icon {
+    #skills .icon {
         float: none;
         text-align: center;
         padding-bottom: 15px;
     }
-    #statistics h4, #statistics p {
+    #skills h4, #skills p {
         margin-left: 0;
         text-align: center;
     }
-}
-
-/* Clients Section
---------------------------------*/
-#clients {
-    padding: 30px 0;
-    background: #fff;
-}
-
-#clients img {
-    max-width: 100%;
-    opacity: 0.5;
-    transition: 0.3s;
-    padding: 15px 0;
-}
-
-#clients img:hover {
-    opacity: 1;
-}
-
-/* Pricing Section
---------------------------------*/
-#pricing {
-    padding: 60px 0 60px 0;
-}
-
-#pricing .box {
-    padding: 40px;
-    margin-bottom: 30px;
-    box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
-    background: #fff;
-    text-align: center;
-}
-
-#pricing h3 {
-    font-weight: 400;
-    margin-bottom: 15px;
-    font-size: 28px;
-}
-
-#pricing h4 {
-    font-size: 46px;
-    color: #1dc8cd;
-    font-weight: 300;
-}
-
-#pricing h4 sup {
-    font-size: 20px;
-    top: -20px;
-}
-
-#pricing h4 span {
-    color: #bababa;
-    font-size: 20px;
-}
-
-#pricing ul {
-    padding: 0;
-    list-style: none;
-    color: #999;
-    text-align: left;
-    line-height: 20px;
-}
-
-#pricing ul li {
-    padding-bottom: 12px;
-}
-
-#pricing ul i {
-    color: #1dc8cd;
-    font-size: 18px;
-    padding-right: 4px;
-}
-
-#pricing .get-started-btn {
-    background: #515e61;
-    display: inline-block;
-    padding: 6px 30px;
-    border-radius: 20px;
-    color: #fff;
-    transition: none;
-    font-size: 14px;
-    font-weight: 400;
-    font-family: "Montserrat", sans-serif;
-}
-
-#pricing .featured {
-    border: 2px solid #1dc8cd;
-}
-
-#pricing .featured .get-started-btn {
-    background: linear-gradient(45deg, #1de099, #1dc8cd);
-}
-
-/* Frequently Asked Questions Section
---------------------------------*/
-#faq {
-    padding: 60px 0;
-}
-
-#faq #faq-list {
-    padding: 0;
-    list-style: none;
-}
-
-#faq #faq-list li {
-    border-bottom: 1px solid #ddd;
-}
-
-#faq #faq-list a {
-    padding: 18px 0;
-    display: block;
-    position: relative;
-    font-family: "Montserrat", sans-serif;
-    font-size: 22px;
-    line-height: 1;
-    font-weight: 300;
-    padding-right: 20px;
-}
-
-#faq #faq-list i {
-    font-size: 24px;
-    position: absolute;
-    right: 0;
-    top: 16px;
-}
-
-#faq #faq-list p {
-    margin-bottom: 20px;
-}
-
-@media (max-width: 768px) {
-    #faq #faq-list a {
-        font-size: 18px;
-    }
-    #faq #faq-list i {
-        top: 13px;
-    }
-}
-
-#faq #faq-list a.collapse {
-    color: #1dc8cd;
-}
-
-#faq #faq-list a.collapsed {
-    color: #000;
-}
-
-#faq #faq-list a.collapsed i::before {
-    content: "\f2c7" !important;
-}
-
-/* Our Team Section
---------------------------------*/
-#team {
-    padding: 60px 0;
-}
-
-#team .member {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-#team .member .pic {
-    margin-bottom: 15px;
-    overflow: hidden;
-    height: 260px;
-}
-
-#team .member .pic img {
-    max-width: 100%;
-}
-
-#team .member h4 {
-    font-weight: 700;
-    margin-bottom: 2px;
-    font-size: 18px;
-}
-
-#team .member span {
-    font-style: italic;
-    display: block;
-    font-size: 13px;
-}
-
-#team .member .social {
-    margin-top: 15px;
-}
-
-#team .member .social a {
-    color: #2986ce;
-}
-
-#team .member .social a:hover {
-    color: #ffffff;
-}
-
-#team .member .social i {
-    font-size: 28px;
-    margin: 0 10px;
 }
 
 /* Gallery Section
@@ -1191,11 +981,12 @@ $('.carousel').carousel({
 /*Blog 
 */
 
-@media (min-width: 769px) {
+@media (min-width: 500px) {
     #blog .cta-btn-container {
         align-items: center;
         justify-content: flex-end;
         margin: auto;
+        padding-bottom: 50px ; 
     }
 }
 
