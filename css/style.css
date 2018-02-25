@@ -14,10 +14,7 @@ body {
     overflow-x: hidden;
 }
 
-a {
-    color: #ffffff;
-    transition: 0.5s;
-}
+
 
 a:hover, a:active, a:focus {
     color: #2986ce;
@@ -95,6 +92,8 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo h1 a, #header #logo h1 a:hover {
     color: #fff;
 }
+
+
 
 #header #logo img {
     padding: 0;
@@ -188,8 +187,9 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
 
+
 #intro .btn-get-started:hover {
-    color: #2986ce;
+    color: #fff;
     background: #fff;
 }
 
@@ -243,7 +243,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .intro-icons {
-    padding-top: 1.5em;
+    padding-top: 1.5em ;
+    color: #fff !important;
+}
+
+#intro .i {
+    color: #ffffff !important;
+    transition: 0.5s;
 }
 
 /*--------------------------------------------------------------
@@ -489,6 +495,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding-bottom: 40px;
     color: #666666;
     font-style: italic;
+    font-size: 14px ; 
 }
 
 .section-header .section-divider {
@@ -544,13 +551,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .content h3 {
     color: #ffffff;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 26px;
     line-height: 26px;
     font-style: italic;
 }
 
 #about .content p {
     line-height: 26px;
+    color: aqua ;
+    
 }
 
 #about .content p:last-child {
@@ -630,7 +639,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Publications Section
 --------------------------------*/
 #Publications {
-    background: linear-gradient(rgba(179, 230, 255, 0.5), rgba(0, 170, 255, 0.5)), url(../img/IMG_6271.png) fixed center center;
+    background: linear-gradient(rgba(2, 161, 242, 0.8), rgba(4, 104, 155, 0.8)), url(../img/IMG_6271.png) fixed center center;
     background-size: cover;
     padding: 80px 0;
 }
@@ -680,8 +689,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #Publications .cta-btn:hover {
-    background: #aadcf7;
-    border: 2px solid #aadcf7;
+    background: #b5b6b7;
+    border: 2px solid #b5b6b7
+     ;
 }
 
 /* Skills Section
@@ -720,7 +730,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #skills p {
     font-size: 14px;
-    margin-left: 100px;
+    margin-left: 0px;
     margin-bottom: 0;
     line-height: 24px;
 }
@@ -1000,6 +1010,7 @@ $('.carousel').carousel({
         justify-content: flex-end;
         margin: auto;
         padding-bottom: 50px ; 
+       
     }
 }
 
@@ -1018,12 +1029,15 @@ $('.carousel').carousel({
 }
 
 #blog .cta-btn:hover {
-    background: #aadcf7;
-    border: 2px solid #aadcf7;
+    background: #b5b6b7;
+    border: 2px solid #b5b6b7;
     color: #ffffff;
 }
 
-
+#blog .a {
+    color: #000000 !important;
+    transition: 0.5s;
+}
 
 .skills {
     text-align: right;
@@ -1057,7 +1071,7 @@ $('.carousel').carousel({
 
 .carousel-control {
     width: 5% !important;
-}
+} 
 
 #text-carousel {
     width: 100%;
