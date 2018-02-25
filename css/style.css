@@ -690,8 +690,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #Publications .cta-btn:hover {
     background: #b5b6b7;
-    border: 2px solid #b5b6b7
-     ;
+    border: 2px solid #b5b6b7;
+    text-decoration: none;
 }
 
 /* Skills Section
@@ -1032,6 +1032,7 @@ $('.carousel').carousel({
     background: #b5b6b7;
     border: 2px solid #b5b6b7;
     color: #ffffff;
+    text-decoration: none;
 }
 
 #blog .a {
