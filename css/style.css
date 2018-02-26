@@ -529,7 +529,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-img img {
     margin-left: 150px;
-    max-width: 500%;
+    max-width: 200%;
 }
 
 @media (max-width: 500px) {
