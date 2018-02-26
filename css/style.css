@@ -523,13 +523,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .about-img {
     display: block;
     margin:auto;
-    width: 80%;
+    width: 50%;
     overflow: hidden;
 }
 
 #about .about-img img {
     margin-left: 150px;
-    max-width: 200%;
+    max-width: 500%;
 }
 
 @media (max-width: 500px) {
