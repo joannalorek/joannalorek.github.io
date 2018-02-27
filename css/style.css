@@ -517,8 +517,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* About Us Section
 --------------------------------*/
+/*#about {
+    padding: 30px 2%;
+} */
+
 #about {
-    padding: 20px 20%;
+ padding: 60px 0 0 0;
 }
 
 #about .about-img {
@@ -583,10 +587,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .box {
-    padding: 40px;
-    margin-bottom: 40px;
-    padding-right: 4px;
-    padding-left: 4px;
+     padding: 40px;
+    margin-bottom: 30px;
     box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
     background: #fff;
     transition: 0.4s;
