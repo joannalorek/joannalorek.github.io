@@ -1044,8 +1044,6 @@ $('.carousel').carousel({
     margin: 10px;
     border: 2px solid #2986ce ;
     color: #2986ce;
-    margin-left:auto;
-    margin-right:auto;
 }
 
 #blog .cta-btn:hover {
@@ -1069,12 +1067,12 @@ $('.carousel').carousel({
 
 .skillsbar {
     padding: 10px 0;
-    height: 55px;
+    height: 40px;
 }
 .skillsbar > svg {
     height: 100%;
     display: block;
-    border-radius: 10px;
+    border-radius: 50px;
 }
 
 
@@ -1112,3 +1110,43 @@ $('.carousel').carousel({
     display: flex !important;
     align-items: center !important;
 }
+
+
+
+
+#Mentoring {
+    background: linear-gradient(rgba(2, 161, 242, 0.8), rgba(4, 104, 155, 0.8)), url(../img/IMG_6271.jpg) fixed center center;
+    background-size: cover;
+    padding: 60px 0 60px 0;
+}
+
+#Mentoring .box {
+    padding: 10px;
+    margin-bottom: 5px;
+    background: transparent;
+    transition: 0.4s;
+    text-align: center ; 
+    text-decoration: none ;
+}
+
+#Mentoring .cta-title {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center !important;
+}
+
+#Mentoring .a {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+    padding: 0;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#Mentoring .cta-btn:hover {
+    background: #b5b6b7;
+    border: 2px solid #b5b6b7;
+    text-decoration: none;
